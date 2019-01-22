@@ -25,7 +25,7 @@ class TrailerPreview extends Component {
 
 		return (
 			<div
-				className="trailers-app-trailer-preview"
+				className="trailers-app-trailer-preview animated fadeIn"
 				onClick={this.handleClick}>
 				<div
 					className="trailers-app-trailer-preview-anchor"

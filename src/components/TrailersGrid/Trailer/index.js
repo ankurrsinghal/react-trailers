@@ -18,7 +18,7 @@ class Trailer extends Component {
 		const day = getDayFromEventDisplayDate(DispReleaseDate);
 		const month = getMonthFromEventDisplayDate(DispReleaseDate);
 
-		const baseClassName = 'trailers-app-trailer-item';
+		const baseClassName = 'trailers-app-trailer-item animated fadeIn';
 		const selectedClassName = 'selected';
 
 		const classNames = isPreviewOpen ? [baseClassName, selectedClassName] : [baseClassName];
